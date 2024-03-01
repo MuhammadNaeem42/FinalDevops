@@ -2,7 +2,7 @@
 <%@page import="bean.LoginDao"%>
 <jsp:useBean id="obj" class="bean.LoginBean"/>
 
-<jsp:setProperty property="*" name="obj"/>
+<jsp:setProperty property="*" name="obj"/> 
 
 <%
 boolean status=LoginDao.validate(obj);
